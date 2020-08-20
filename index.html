@@ -1,6 +1,6 @@
 <script>
 	const queryString = window.location.search;
 	console.log(queryString);
-	let passcode = queryString.split("=")[1];
-	window.location = "myantskiin://accept-invitation?inviteCode="+passcode;
+	let inviteCode = queryString.split("=")[1];
+	window.location = "myantskiin://accept-invitation?inviteCode="+inviteCode;
 </script>
